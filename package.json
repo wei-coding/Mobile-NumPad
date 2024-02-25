@@ -1,0 +1,24 @@
+{
+  "name": "mobile-numpad",
+  "version": "1.0.0",
+  "description": "Numpad on mobile, for those who don't have numpad on their keyboard!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently --kill-others \"npx serve ./frontend\" \"python backend/app.py\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wei-coding/Mobile-NumPad.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wei-coding/Mobile-NumPad/issues"
+  },
+  "homepage": "https://github.com/wei-coding/Mobile-NumPad#readme",
+  "devDependencies": {
+    "concurrently": "^8.1.0",
+    "serve": "^14.2.0"
+  }
+}
